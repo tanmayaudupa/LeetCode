@@ -47,7 +47,7 @@ public:
         ListNode* temp1t = temp1->next;
         if(prev1 !=NULL){
             prev1->next = temp2;
-        }
+        }                                                                                                                                             
         else{
             head = temp2;
         }
